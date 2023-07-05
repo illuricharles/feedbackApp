@@ -1,0 +1,95 @@
+.bg-container {
+  padding: 25px;
+  height: 100vh;
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  font-family: 'Roboto';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.heading {
+  font-size: 19px;
+  text-align: center;
+  color: #0f172a;
+  margin-bottom: 30px;
+}
+
+.emoji {
+  height: 45px;
+  width: 45px;
+}
+
+.emoji-name {
+  color: #1e293b;
+
+  font-weight: 430;
+}
+
+.emoji-container {
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  list-style-type: none;
+}
+
+.love-emoji {
+  height: 50px;
+  width: 50px;
+}
+
+.submit-heading {
+  font-size: 32px;
+}
+
+.submit-heading {
+  font-size: 24px;
+}
+
+.submit-card-container {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .card-container {
+    width: 44%;
+    padding: 30px;
+  }
+  .heading {
+    font-size: 30px;
+    font-weight: 450;
+  }
+
+  .emoji {
+    height: 70px;
+    width: 70px;
+  }
+
+  .emoji-container {
+    text-align: center;
+    justify-content: space-around;
+  }
+
+  .love-emoji {
+    height: 70px;
+    width: 70px;
+  }
+
+  .submit-heading {
+    font-size: 32px;
+    font-weight: 450;
+  }
+
+  .submit-description {
+    font-size: 18px;
+  }
+}
